@@ -1,0 +1,24 @@
+<html lang="en">
+    <head>
+        <title>Puzzel</title>
+    </head>
+    <body>
+        <h1>Child</h1>
+        <p>
+            Tester ut Child
+        </p>
+    </body>
+
+ <script>
+    window.onload= function(){
+        var parentWindow = window.parent;
+        parentWindow.postMessage('Your message. Text, number, object, whatever.');
+    
+
+    }
+
+
+ </script>
+
+
+</html>
